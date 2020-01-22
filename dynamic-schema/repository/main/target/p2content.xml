@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='202001211900.org.wso2.tooling.connector.dynamic.schema.feature.category' version='1.0.0.2-1cKDgFE7737335755K33'>
+    <properties size='3'>
+      <property name='org.eclipse.equinox.p2.name' value='WSO2 ESB Tools'/>
+      <property name='org.eclipse.equinox.p2.description' value='This is the ESB Connector Feature for the Developer Studio. This provides tooling&#xA;            support for Dynamic Schema Generation for dynamic operations on Developer Studio.'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='202001211900.org.wso2.tooling.connector.dynamic.schema.feature.category' version='1.0.0.2-1cKDgFE7737335755K33'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.wso2.tooling.connector.dynamic.schema.feature.feature.group' range='[1.0.1.202001211900,1.0.1.202001211900]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>
